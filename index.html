@@ -11,6 +11,9 @@
     />
     <link rel="stylesheet" href="./css/style.css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+</style>
   </head>
   <body class="text-white max-w-[1600px] mx-auto bg-black">
     <!-- Header Started -->
@@ -56,7 +59,7 @@
       <!-- Nav Section Ends here -->
 
       <!-- Hero Banner Section Started here -->
-        <section  class="pt-20">
+        <section  class="pt-20 ">
 
      <div class="bg-[url(./assets/hero-bg.png)]  bg-cover bg-center bg-no-repeat
          min-h-[700px]   bg-linear-to-b from-black/40 via-black/20 to-black/40
@@ -86,7 +89,20 @@
             
                       
           <div>
-           
+         <div class="text-center mt-9 space-y-6">
+            <h2 class="text-6xl font-extrabold">TechWave</h2>
+           <p class="opacity-75">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+         </div>
+         <div class="flex justify-center items-center mt-6 gap-3">
+          <button  class="bg-linear-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] flex justify-center items-center gap-4 px-8 py-4 text-xl font-semibold rounded-xl cursor-pointer hover:text-amber-300 transition-all duration-300 hover:opacity-95">
+            <span><img  src="./assets/spotify.png" alt="spotify image" ></span>
+            <span>Listen on Spotify</span>
+          </button>
+          <button  class="hover:bg-linear-to-tr hover:border-0 border-2 from-[#F7E93F] via-[#FB09B4] to-[#9100F8] flex justify-center items-center gap-4 px-8 py-4 text-xl font-semibold rounded-3xl cursor-pointer hover:text-amber-300 transition-all duration-300 hover:opacity-95">
+            <span><img  src="./assets/message.png" alt="spotify image" class=""></span>
+            <span>Subscribe</span>
+          </button>
+         </div>
           </div>
 
      </div>
