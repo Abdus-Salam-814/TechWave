@@ -1,47 +1,84 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TechWave</title>
-    <link rel="shortcut icon" href="./assets/headphone.png" type="image/x-icon">
-    <link rel="stylesheet" href="./css/style.css">
-        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-</head>
-<body class="text-white max-w-[1600px] mx-auto bg-black">
+    <link
+      rel="shortcut icon"
+      href="./assets/headphone.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="text-white max-w-[1600px] mx-auto bg-black">
+    <!-- Header Started -->
+    <header
+      class="bg-linear-to-r from-[#1A0B2E] via-[#000000] to-[#1A0B2E] border-b-2-2"
+    >
+      <!-- Nav Section Started here -->
+      <nav>
+        <section
+          class="flex justify-between items-center gap-4 py-4 px-6 md:px-16"
+        >
+          <div>
+            <h1 class="text-6xl font-semibold cursor-pointer">
+              Tech<span
+                class="bg-linear-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent font-bold"
+                >Wave</span
+              >
+            </h1>
+          </div>
+          <div class="hidden md:block font-semibold">
+            <ul class="flex gap-6">
+              <li class="hover:bg-linear-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] py-2 px-4 rounded-2xl  transition-all duration-300"><a href="#">About</a></li>
+              <li class="hover:bg-linear-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] py-2 px-4 rounded-2xl  transition-all duration-300"><a href="#">Episodes</a></li>
+              <li class="hover:bg-linear-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] py-2 px-4 rounded-2xl  transition-all duration-300  "><a href="#">Host</a></li>
+            </ul>
+          </div>
+          <div class="hidden md:block">
+            <button
+              class="bg-linear-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] flex justify-center items-center gap-4 px-8 py-4 text-xl font-semibold rounded-xl cursor-pointer hover:text-amber-300 transition-all duration-300 h"
+            >
+              <span>Subscribe</span>
+              <span><img src="./assets/ArrowRight.png" alt="" /></span>
+            </button>
+          </div>
 
-  <!-- Header Started -->
-   <header class="bg-gradient-to-r from-[#1A0B2E] via-[#000000]
-    to-[#1A0B2E]  border-b-2-2">
-    
-  <!-- Nav Section Started here -->
-   <nav >
-    <section class="flex justify-between items-center gap-4 py-4 px-6 md:px-16">
-      <div>
-      <h1 class="text-6xl font-semibold cursor-pointer">Tech<span class="bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent font-bold ">Wave</span></h1>
-    </div>
-    <div class="hidden md:block font-semibold">
-      <ul class="flex gap-6">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Episodes</a></li>
-        <li><a href="#">Host</a></li>
-      </ul>
-    </div>
-    <div class="hidden md:block">
-      <button class="bg-gradient-to-tr  from-[#F7E93F] via-[#FB09B4] to-[#9100F8]  flex justify-center items-center gap-4 px-8 py-4 text-xl font-semibold rounded-xl cursor-pointer   hover:text-blue-900  transition-all duration-300 h"><span>Subscribe</span> <span><img src="./assets/ArrowRight.png" alt=""></span> </button>
-    </div>
+          <div class="md:hidden">
+            <a href="#"><img src="./assets/hamburger-menu.png" alt="" /></a>
+          </div>
+        </section>
+        <hr class="text-amber-100" />
+      </nav>
 
-    <div class="md:hidden">
-      <a href="#"><img src="./assets/hamburger-menu.png" alt=""></a>
-    </div>
+      <!-- Nav Section Ends here -->
 
-    </section>
-     <hr class="text-amber-100">
-   </nav>
-  
-  <!-- Nav Section Started here -->
-   </header>
-  <!-- Header Ends -->
+      <!-- Hero Banner Section Started here -->
+        <section  class="">
 
-</body>
+     <div class="bg-[url(./assets/hero-bg.png)]  bg-cover bg-center bg-no-repeat
+         min-h-[700px]   bg-linear-to-b from-black/40 via-black/20 to-black/40
+    bg-blend-overlay ">
+           <div class="flex justify-center items-center  ">
+            <div class="relative w-fit mt-18 ">
+
+            <img src="./assets/hero-circle.png" alt="" class="w-full ">
+            
+            <img src="./assets/microphone.png" alt="" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[45%]">
+          </div>
+           </div>
+
+          <div>
+           
+          </div>
+
+     </div>
+
+        </section>
+      <!-- Hero Banner Section Ends here -->
+    </header>
+    <!-- Header Ends -->
+  </body>
 </html>
